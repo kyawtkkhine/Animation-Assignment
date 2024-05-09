@@ -1,0 +1,40 @@
+.btn{
+    padding:10px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    font-size: 20px;
+    animation-duration: 2s;
+    animation-name: move;  
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+div{
+    margin: 20vh;
+    text-align: center;
+}
+@keyframes move{
+
+    0%{
+        transform:translate(-500px) rotate(0deg);
+        background-color:#AC92EB;
+    }
+    25%{
+        transform: translate(10px) rotate(360deg);
+        background-color: #4FC1E8;
+    }
+    50%{
+        transform: translate(0px) rotate(60deg);
+        background-color: #A0D568;
+    }
+    75%{
+        transform: translate(-300px) rotate(10deg);
+        background-color: #FFCE54;
+    }
+    100%{
+        transform: translate(-700px) rotate(0deg);
+        background-color: #ED5564;
+    }
+}
